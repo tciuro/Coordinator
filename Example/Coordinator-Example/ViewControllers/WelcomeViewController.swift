@@ -1,4 +1,4 @@
-//  TextAndButtonViewController.swift
+//  WelcomeViewController.swift
 //  Coordinator-Example
 //
 //  Created by Dave Neff.
@@ -7,15 +7,15 @@ import UIKit
 
 // MARK: - Delegate
 
-protocol TextAndButtonViewControllerDelegate: class {
-    func textAndButtonViewControllerDidTapButton(_ controller: TextAndButtonViewController)
+protocol WelcomeViewControllerDelegate: class {
+    func welcomeControllerDidTapButton(_ controller: WelcomeViewController)
 }
 
 // MARK: - View Controller
 
-final class TextAndButtonViewController: UIViewController {
+final class WelcomeViewController: UIViewController {
     
-    weak var delegate: TextAndButtonViewControllerDelegate?
+    weak var delegate: WelcomeViewControllerDelegate?
     
     // MARK: - UI Elements
     
@@ -61,12 +61,12 @@ final class TextAndButtonViewController: UIViewController {
 
 // MARK: - Configuration
 
-private extension TextAndButtonViewController {
+private extension WelcomeViewController {
     
     func configureConstraints() {
         let safeArea = view.safeAreaLayoutGuide
         let padding: CGFloat = 30
-
+        
         view.addSubview(titleLabel, constraints: [titleLabel.topAnchor.constraint(equalTo: safeArea.topAnchor, constant: padding),
                                                   titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)])
         view.addSubview(descriptionLabel, constraints: [descriptionLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor),
@@ -80,10 +80,10 @@ private extension TextAndButtonViewController {
 
 // MARK: - Action
 
-private extension TextAndButtonViewController {
+private extension WelcomeViewController {
     
     @objc func didTapButton() {
-        delegate?.textAndButtonViewControllerDidTapButton(self)
+        delegate?.welcomeControllerDidTapButton(self)
     }
     
 }

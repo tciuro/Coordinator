@@ -20,7 +20,7 @@ public protocol NavigatorType {
     /** Pops all the view controllers on the stack except the root view controller and updates the display. */
     @discardableResult
     func popToRootViewController(animated: Bool) -> [UIViewController]?
-
+    
     /** Pops view controllers until the specified view controller is at the top of the navigation stack. */
     @discardableResult
     func popToViewController(_ viewController: UIViewController, animated: Bool) -> [UIViewController]?
@@ -34,15 +34,15 @@ public protocol NavigatorType {
     
     /** Replaces all the view controllers currently managed by the navigation controller a new root view controller. */
     func setRootViewController(_ viewController: UIViewController, animated: Bool)
-
+    
 }
 
 public extension NavigatorType {
-
+    
     func push(_ viewController: UIViewController, animated: Bool) {
         push(viewController, animated: animated, onPoppedCompletion: nil)
     }
-
+    
 }
 
 // *******************************
@@ -54,7 +54,7 @@ public extension NavigatorType {
 ///  for when its `UIViewContoller`s are popped from the navigation stack.
 
 public final class Navigator: NSObject, NavigatorType {
-
+    
     private let navigationController: UINavigationController
     private var completions: [UIViewController: () -> Void]
     
@@ -96,7 +96,7 @@ public extension Navigator {
         }
         return nil
     }
-
+    
     func push(_ viewController: UIViewController, animated: Bool, onPoppedCompletion: (() -> Void)? = nil) {
         if let completion = onPoppedCompletion {
             completions[viewController] = completion
@@ -104,13 +104,13 @@ public extension Navigator {
         
         navigationController.pushViewController(viewController, animated: animated)
     }
-
+    
     func setRootViewController(_ viewController: UIViewController, animated: Bool) {
         completions.forEach { $0.value() }      // call completions so all view controllers are deallocated
         completions = [:]
         navigationController.setViewControllers([viewController], animated: animated)
     }
-
+    
 }
 
 // MARK: - UINavigationControllerDelegate

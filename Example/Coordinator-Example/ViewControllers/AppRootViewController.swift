@@ -12,7 +12,7 @@ final class AppRootViewController: UIViewController {
     func set(childViewController controller: UIViewController) {
         addChild(controller)
         controller.didMove(toParent: self)
-
+        
         let childView = controller.view!
         view.addSubview(childView, constraints: [childView.topAnchor.constraint(equalTo: view.topAnchor),
                                                  childView.bottomAnchor.constraint(equalTo: view.bottomAnchor),

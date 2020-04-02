@@ -36,7 +36,7 @@ public extension Coordinator {
      
      - Parameter childCoordinator: The coordinator to release.
      */
-
+    
     func removeChildCoordinator(_ childCoordinator: Coordinator) {
         childCoordinators = childCoordinators.filter { $0 !== childCoordinator }
     }
@@ -88,8 +88,8 @@ public extension PresentationCoordinator {
      Starts a child coordinator and presents its `rootViewController` modally. This method also retains the `childCoordinator` in memory, which needs to be released upon dismissal.
      
      - Parameters:
-        - childCoordinator: The coordinator to present and retain.
-        - animated: Specify `true` to animate the transition or `false` if you do not want the transition to be animated.
+     - childCoordinator: The coordinator to present and retain.
+     - animated: Specify `true` to animate the transition or `false` if you do not want the transition to be animated.
      */
     
     func presentCoordinator(_ childCoordinator: _PresentationCoordinator, animated: Bool) {
@@ -102,16 +102,16 @@ public extension PresentationCoordinator {
      Dismisses a child coordinator's `rootViewController` which was presented modally, and releases the coordinator from memory.
      
      - Parameters:
-        - childCoordinator: The coordinator to dismiss and release.
-        - animated: Specify `true` to animate the transition or `false` if you do not want the transition to be animated.
-        - completion: The block to execute after the view controller is dismissed.
+     - childCoordinator: The coordinator to dismiss and release.
+     - animated: Specify `true` to animate the transition or `false` if you do not want the transition to be animated.
+     - completion: The block to execute after the view controller is dismissed.
      */
     
     func dismissCoordinator(_ childCoordinator: _PresentationCoordinator, animated: Bool, completion: (() -> Void)? = nil) {
         childCoordinator._rootViewController.dismiss(animated: animated, completion: completion)
         self.removeChildCoordinator(childCoordinator)
     }
-
+    
 }
 
 // *******************************
@@ -136,8 +136,8 @@ public extension NavigationCoordinator {
      This method also manages retaining and releasing the `childCoordinator` in memory.
      
      - Parameters:
-        - childCoordinator: The coordinator to push.
-        - animated: Specify `true` to animate the transition or `false` if you do not want the transition to be animated.
+     - childCoordinator: The coordinator to push.
+     - animated: Specify `true` to animate the transition or `false` if you do not want the transition to be animated.
      */
     
     func pushCoordinator(_ childCoordinator: _PresentationCoordinator, animated: Bool) {

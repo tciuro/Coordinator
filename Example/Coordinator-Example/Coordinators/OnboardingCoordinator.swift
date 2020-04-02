@@ -23,13 +23,13 @@ final class OnboardingCoordinator: NavigationCoordinator {
     var navigator: NavigatorType
     var rootViewController: UINavigationController
     
-    private let textAndButtonViewController: TextAndButtonViewController
+    private let welcomeViewController: WelcomeViewController
     
     init() {
-        let initialViewController = TextAndButtonViewController(title: "Yo!",
-                                                                description: "Welcome to the Onboarding Flow of this example project.\n\nCoordinators make it really easy to handle conditional routing like this.",
-                                                                buttonTitle: "Cool")
-        self.textAndButtonViewController = initialViewController
+        let initialViewController = WelcomeViewController(title: "Welcome!",
+                                                          description: "Welcome to the Onboarding Flow of this example project.\n\nCoordinators make it really easy to handle conditional routing like this.",
+                                                          buttonTitle: "Cool")
+        self.welcomeViewController = initialViewController
         
         let navigationController = UINavigationController(rootViewController: initialViewController)
         navigationController.navigationBar.isHidden = true
@@ -38,21 +38,21 @@ final class OnboardingCoordinator: NavigationCoordinator {
     }
     
     func start() {
-        textAndButtonViewController.delegate = self
+        welcomeViewController.delegate = self
     }
     
 }
 
 // MARK: - Text and Button View Controller Delegate
 
-extension OnboardingCoordinator: TextAndButtonViewControllerDelegate {
+extension OnboardingCoordinator: WelcomeViewControllerDelegate {
     
-    func textAndButtonViewControllerDidTapButton(_ controller: TextAndButtonViewController) {
+    func welcomeControllerDidTapButton(_ controller: WelcomeViewController) {
         let summaryViewController = SummaryViewController()
         summaryViewController.delegate = self
         navigator.push(summaryViewController, animated: true)
     }
-        
+    
 }
 
 // MARK: - Summary View Controller Delegate

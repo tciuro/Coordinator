@@ -15,7 +15,7 @@ final class AboutCoordinator: NSObject, NavigationCoordinator {
     var rootViewController = AboutViewController()
     
     private let dataService = DataService.shared
-
+    
     init(navigator: NavigatorType) {
         self.navigator = navigator
     }
@@ -59,9 +59,9 @@ extension AboutCoordinator: AboutViewControllerDelegate {
 // MARK: - Safari View Controller Delegate
 
 extension AboutCoordinator: SFSafariViewControllerDelegate {
-
+    
     func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
         controller.dismiss(animated: true)
     }
-
+    
 }

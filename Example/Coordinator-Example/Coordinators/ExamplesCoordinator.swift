@@ -37,11 +37,11 @@ extension ExamplesCoordinator: ExamplesViewControllerDelegate {
     
     func examplesViewControllerDidTapPresentViewController(_ controller: ExamplesViewController) {
         let title = dataService.fetchViewControllerViewedCount() == 0 ? "First View" : "View #\(dataService.fetchViewControllerViewedCount() + 1)"
-        let textAndButtonController = TextAndButtonViewController(title: title,
-                                                                  description: "A Coordinator mediates between different services, then tells the ViewController how to render.\n\nFor example, in this context, this ViewController shows how many times you've viewed it (above). The Coordinator is in responsible for grabbing that from the DataService, preparing it, then passing it to the ViewController.\n\nThat makes this ViewController a lot more \"dumb\", and a lot more flexible.",
-                                                                  buttonTitle: "What Else Does It Do?")
-        textAndButtonController.delegate = self
-        examplesViewController.present(textAndButtonController, animated: true)
+        let welcomeController = WelcomeViewController(title: title,
+                                                      description: "A Coordinator mediates between different services, then tells the ViewController how to render.\n\nFor example, in this context, this ViewController shows how many times you've viewed it (above). The Coordinator is in responsible for grabbing that from the DataService, preparing it, then passing it to the ViewController.\n\nThat makes this ViewController a lot more \"dumb\", and a lot more flexible.",
+                                                      buttonTitle: "What Else Does It Do?")
+        welcomeController.delegate = self
+        examplesViewController.present(welcomeController, animated: true)
         
         let newViewCount = dataService.fetchViewControllerViewedCount() + 1
         dataService.set(viewControllerViewedCount: newViewCount)
@@ -62,9 +62,9 @@ extension ExamplesCoordinator: ExamplesViewControllerDelegate {
 
 // MARK: - Text And Button View Controller Delegate
 
-extension ExamplesCoordinator: TextAndButtonViewControllerDelegate {
+extension ExamplesCoordinator: WelcomeViewControllerDelegate {
     
-    func textAndButtonViewControllerDidTapButton(_ controller: TextAndButtonViewController) {
+    func welcomeControllerDidTapButton(_ controller: WelcomeViewController) {
         controller.showAlert(title: "A Lot!",
                              message: "Not only does a Coordinator mediate between different services, it also handles conditional navigation.\n\nLike right now, I'd rather  show this alert rather than dismiss or push a new ViewController.\n\nPulling that code into the Coordinator makes it really easy to modify navigation routes as requirements change.",
                              actionTitle: "Gotcha",
@@ -82,5 +82,5 @@ extension ExamplesCoordinator: OnboardingCoordinatorDelegate {
     func onboardingCoordinatorDidFinish(_ coordinator: OnboardingCoordinator) {
         dismissCoordinator(coordinator, animated: true)
     }
-
+    
 }

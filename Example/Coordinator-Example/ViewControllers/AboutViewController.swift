@@ -32,7 +32,7 @@ final class AboutViewController: UIViewController {
         $0.numberOfLines = 0
         $0.setDefaultStyle(size: .paragraph, weight: .light)
     }
-        
+    
     private let resetButton = UIButton(type: .system).applying {
         $0.setTitle("Reset DataService", for: .normal)
         $0.titleLabel?.setDefaultStyle(size: .paragraph, weight: .regular)
@@ -103,5 +103,5 @@ private extension AboutViewController {
     @objc private func didTapPopCoordinatorButton() {
         delegate?.aboutViewControllerDidTapPopCoordinator(self)
     }
-
+    
 }

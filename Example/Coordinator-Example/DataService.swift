@@ -37,7 +37,7 @@ extension DataService {
     func set(isFirstTimeUser: Bool) {
         isFirstTimeUser ? defaults.removeObject(forKey: userStateKey) : defaults.set(userStateKey, forKey: userStateKey)
     }
-
+    
 }
 
 // MARK: - View Count
@@ -45,7 +45,7 @@ extension DataService {
 extension DataService {
     
     private var viewCountKey: String { return "ViewCount" }
-
+    
     /// Returns how many times the ViewController has been viewed.
     
     func fetchViewControllerViewedCount() -> Int {

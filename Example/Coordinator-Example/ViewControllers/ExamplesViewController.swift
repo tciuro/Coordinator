@@ -18,7 +18,7 @@ protocol ExamplesViewControllerDelegate: class {
 final class ExamplesViewController: UIViewController {
     
     weak var delegate: ExamplesViewControllerDelegate?
-
+    
     // MARK: - UI Elements
     
     private let presentableCoordinatorLabel = UILabel {
@@ -48,7 +48,7 @@ final class ExamplesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         configureUI()
     }
     
@@ -62,7 +62,7 @@ private extension ExamplesViewController {
         title = "Examples"
         
         view.backgroundColor = .white
-
+        
         [presentableCoordinatorLabel, navigationCoordinatorLabel].forEach {
             $0.setDefaultStyle(size: .paragraph, weight: .bold)
         }
@@ -84,7 +84,7 @@ private extension ExamplesViewController {
                                                  stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                                                  stackView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.80)])
     }
-
+    
 }
 
 // MARK: - Action
@@ -98,7 +98,7 @@ private extension ExamplesViewController {
     @objc func onPresentCoordinatorTapped() {
         delegate?.examplesViewControllerDidTapPresentCoordinator(self)
     }
-
+    
     @objc func onPushCoordinatorTapped() {
         delegate?.examplesViewControllerDidTapPushCoordinator(self)
     }

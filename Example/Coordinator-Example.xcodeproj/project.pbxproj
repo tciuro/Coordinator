@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E4222ED1222AF7F400AE3C57 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4222ED0222AF7F400AE3C57 /* UIView+Extensions.swift */; };
-		E4222ED4222AFCF900AE3C57 /* TextAndButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4222ED3222AFCF900AE3C57 /* TextAndButtonViewController.swift */; };
+		E4222ED4222AFCF900AE3C57 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4222ED3222AFCF900AE3C57 /* WelcomeViewController.swift */; };
 		E4222ED6222B078E00AE3C57 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4222ED5222B078E00AE3C57 /* SummaryViewController.swift */; };
 		E42A8D1722172E850061B803 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A8D1622172E850061B803 /* DataService.swift */; };
 		E45E4DAA223D627A00415148 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45E4DA9223D627A00415148 /* OnboardingCoordinator.swift */; };
@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		E4222ED0222AF7F400AE3C57 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		E4222ED3222AFCF900AE3C57 /* TextAndButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndButtonViewController.swift; sourceTree = "<group>"; };
+		E4222ED3222AFCF900AE3C57 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E4222ED5222B078E00AE3C57 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		E42A8D1622172E850061B803 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		E45E4DA9223D627A00415148 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 				E46A635122342F5F00BA28F1 /* AppRootViewController.swift */,
 				E46E6614226ACD7700BDB741 /* ExamplesViewController.swift */,
 				E4222ED5222B078E00AE3C57 /* SummaryViewController.swift */,
-				E4222ED3222AFCF900AE3C57 /* TextAndButtonViewController.swift */,
+				E4222ED3222AFCF900AE3C57 /* WelcomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -154,6 +154,7 @@
 				E4E031662214D09100B60129 /* Sources */,
 				E4E031672214D09100B60129 /* Frameworks */,
 				E4E031682214D09100B60129 /* Resources */,
+				59B8E4822436599D00A8E6C9 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -210,6 +211,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59B8E4822436599D00A8E6C9 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4E031662214D09100B60129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -218,7 +240,7 @@
 				E46A635422342FAE00BA28F1 /* AppCoordinator.swift in Sources */,
 				E49A62C3226BBA96006121DA /* AboutCoordinator.swift in Sources */,
 				E46A635222342F5F00BA28F1 /* AppRootViewController.swift in Sources */,
-				E4222ED4222AFCF900AE3C57 /* TextAndButtonViewController.swift in Sources */,
+				E4222ED4222AFCF900AE3C57 /* WelcomeViewController.swift in Sources */,
 				E47E845322669F7B0004DAF1 /* ExamplesCoordinator.swift in Sources */,
 				E4222ED1222AF7F400AE3C57 /* UIView+Extensions.swift in Sources */,
 				E4957FBE2214D140007C73DE /* Coordinator.swift in Sources */,
