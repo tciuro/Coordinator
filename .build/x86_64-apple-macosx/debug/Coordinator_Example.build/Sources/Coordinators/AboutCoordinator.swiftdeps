@@ -1,0 +1,348 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AboutCoordinator"
+provides-nominal:
+- "19Coordinator_Example05AboutA0C"
+provides-member:
+- ["19Coordinator_Example05AboutA0C", ""]
+provides-dynamic-lookup:
+- "aboutViewControlleDidTapViewOnGithub"
+- "aboutViewControllerDidTapPopCoordinator"
+- "aboutViewControllerDidTapReset"
+- "childCoordinators"
+- "dataService"
+- "navigator"
+- "rootViewController"
+- "safariViewControllerDidFinish"
+- "start"
+depends-top-level:
+- "AboutCoordinator"
+- "AboutViewController"
+- "AboutViewControllerDelegate"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Coordinator"
+- "DataService"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSObject"
+- "NavigationCoordinator"
+- "NavigatorType"
+- "SFSafariViewController"
+- "SFSafariViewControllerDelegate"
+- !private "StringLiteralType"
+- !private "URL"
+depends-member:
+- ["19Coordinator_Example05AboutA0C", "AboutViewController"]
+- ["19Coordinator_Example05AboutA0C", "Coordinator"]
+- ["19Coordinator_Example05AboutA0C", "DataService"]
+- ["19Coordinator_Example05AboutA0C", "NavigatorType"]
+- ["19Coordinator_Example05AboutA0C", "SFSafariViewController"]
+- !private ["19Coordinator_Example05AboutA0C", "URL"]
+- ["19Coordinator_Example05AboutA0C", "ViewController"]
+- ["19Coordinator_Example05AboutA0C", "_Default_ViewController"]
+- ["19Coordinator_Example05AboutA0C", "aboutViewControlleDidTapViewOnGithub"]
+- ["19Coordinator_Example05AboutA0C", "aboutViewControllerDidTapPopCoordinator"]
+- ["19Coordinator_Example05AboutA0C", "aboutViewControllerDidTapReset"]
+- ["19Coordinator_Example05AboutA0C", "childCoordinators"]
+- !private ["19Coordinator_Example05AboutA0C", "dataService"]
+- ["19Coordinator_Example05AboutA0C", "deinit"]
+- ["19Coordinator_Example05AboutA0C", "init"]
+- ["19Coordinator_Example05AboutA0C", "navigator"]
+- ["19Coordinator_Example05AboutA0C", "rootViewController"]
+- ["19Coordinator_Example05AboutA0C", "start"]
+- !private ["19Coordinator_Example19AboutViewControllerC", "delegate"]
+- ["19Coordinator_Example19AboutViewControllerC", "init"]
+- !private ["19Coordinator_Example19AboutViewControllerC", "present"]
+- !private ["19Coordinator_Example19AboutViewControllerC", "showAlert"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "AboutViewController"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "DataService"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "SFSafariViewController"]
+- !private ["19Coordinator_Example27AboutViewControllerDelegateP", "URL"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "ViewController"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", ""]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "_Default_ViewController"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "aboutViewControlleDidTapViewOnGithub"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "aboutViewControllerDidTapPopCoordinator"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "aboutViewControllerDidTapReset"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "childCoordinators"]
+- !private ["19Coordinator_Example27AboutViewControllerDelegateP", "dataService"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "navigator"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "rootViewController"]
+- ["19Coordinator_Example27AboutViewControllerDelegateP", "start"]
+- ["s7CVarArgP", "AboutViewController"]
+- ["s7CVarArgP", "DataService"]
+- ["s7CVarArgP", "SFSafariViewController"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", "ViewController"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "_Default_ViewController"]
+- ["s7CVarArgP", "aboutViewControlleDidTapViewOnGithub"]
+- ["s7CVarArgP", "aboutViewControllerDidTapPopCoordinator"]
+- ["s7CVarArgP", "aboutViewControllerDidTapReset"]
+- ["s7CVarArgP", "childCoordinators"]
+- !private ["s7CVarArgP", "dataService"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "navigator"]
+- ["s7CVarArgP", "rootViewController"]
+- ["s7CVarArgP", "start"]
+- ["19Coordinator_Example0A0P", "AboutViewController"]
+- ["19Coordinator_Example0A0P", "DataService"]
+- ["19Coordinator_Example0A0P", "SFSafariViewController"]
+- !private ["19Coordinator_Example0A0P", "URL"]
+- ["19Coordinator_Example0A0P", "ViewController"]
+- ["19Coordinator_Example0A0P", ""]
+- ["19Coordinator_Example0A0P", "_Default_ViewController"]
+- ["19Coordinator_Example0A0P", "aboutViewControlleDidTapViewOnGithub"]
+- ["19Coordinator_Example0A0P", "aboutViewControllerDidTapPopCoordinator"]
+- ["19Coordinator_Example0A0P", "aboutViewControllerDidTapReset"]
+- ["19Coordinator_Example0A0P", "childCoordinators"]
+- !private ["19Coordinator_Example0A0P", "dataService"]
+- ["19Coordinator_Example0A0P", "navigator"]
+- ["19Coordinator_Example0A0P", "rootViewController"]
+- ["19Coordinator_Example0A0P", "start"]
+- ["s28CustomDebugStringConvertibleP", "AboutViewController"]
+- ["s28CustomDebugStringConvertibleP", "DataService"]
+- ["s28CustomDebugStringConvertibleP", "SFSafariViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", "ViewController"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_ViewController"]
+- ["s28CustomDebugStringConvertibleP", "aboutViewControlleDidTapViewOnGithub"]
+- ["s28CustomDebugStringConvertibleP", "aboutViewControllerDidTapPopCoordinator"]
+- ["s28CustomDebugStringConvertibleP", "aboutViewControllerDidTapReset"]
+- ["s28CustomDebugStringConvertibleP", "childCoordinators"]
+- !private ["s28CustomDebugStringConvertibleP", "dataService"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "navigator"]
+- ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- ["s28CustomDebugStringConvertibleP", "start"]
+- ["s23CustomStringConvertibleP", "AboutViewController"]
+- ["s23CustomStringConvertibleP", "DataService"]
+- ["s23CustomStringConvertibleP", "SFSafariViewController"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", "ViewController"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_ViewController"]
+- ["s23CustomStringConvertibleP", "aboutViewControlleDidTapViewOnGithub"]
+- ["s23CustomStringConvertibleP", "aboutViewControllerDidTapPopCoordinator"]
+- ["s23CustomStringConvertibleP", "aboutViewControllerDidTapReset"]
+- ["s23CustomStringConvertibleP", "childCoordinators"]
+- !private ["s23CustomStringConvertibleP", "dataService"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "navigator"]
+- ["s23CustomStringConvertibleP", "rootViewController"]
+- ["s23CustomStringConvertibleP", "start"]
+- !private ["19Coordinator_Example11DataServiceC", "set"]
+- ["19Coordinator_Example11DataServiceC", "shared"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- ["SQ", "AboutViewController"]
+- ["SQ", "DataService"]
+- ["SQ", "SFSafariViewController"]
+- !private ["SQ", "URL"]
+- ["SQ", "ViewController"]
+- ["SQ", ""]
+- ["SQ", "_Default_ViewController"]
+- ["SQ", "aboutViewControlleDidTapViewOnGithub"]
+- ["SQ", "aboutViewControllerDidTapPopCoordinator"]
+- ["SQ", "aboutViewControllerDidTapReset"]
+- ["SQ", "childCoordinators"]
+- !private ["SQ", "dataService"]
+- !private ["SQ", "init"]
+- ["SQ", "navigator"]
+- ["SQ", "rootViewController"]
+- ["SQ", "start"]
+- ["SH", "AboutViewController"]
+- ["SH", "DataService"]
+- ["SH", "SFSafariViewController"]
+- !private ["SH", "URL"]
+- ["SH", "ViewController"]
+- ["SH", ""]
+- ["SH", "_Default_ViewController"]
+- ["SH", "aboutViewControlleDidTapViewOnGithub"]
+- ["SH", "aboutViewControllerDidTapPopCoordinator"]
+- ["SH", "aboutViewControllerDidTapReset"]
+- ["SH", "childCoordinators"]
+- !private ["SH", "dataService"]
+- !private ["SH", "init"]
+- ["SH", "navigator"]
+- ["SH", "rootViewController"]
+- ["SH", "start"]
+- ["So8NSObjectC", "AboutViewController"]
+- ["So8NSObjectC", "Coordinator"]
+- ["So8NSObjectC", "DataService"]
+- ["So8NSObjectC", "NavigatorType"]
+- ["So8NSObjectC", "SFSafariViewController"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "ViewController"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_Default_ViewController"]
+- ["So8NSObjectC", "aboutViewControlleDidTapViewOnGithub"]
+- ["So8NSObjectC", "aboutViewControllerDidTapPopCoordinator"]
+- ["So8NSObjectC", "aboutViewControllerDidTapReset"]
+- ["So8NSObjectC", "childCoordinators"]
+- ["So8NSObjectC", "dataService"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "navigator"]
+- ["So8NSObjectC", "rootViewController"]
+- ["So8NSObjectC", "start"]
+- ["So8NSObjectP", "AboutViewController"]
+- ["So8NSObjectP", "DataService"]
+- ["So8NSObjectP", "SFSafariViewController"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", "ViewController"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "_Default_ViewController"]
+- ["So8NSObjectP", "aboutViewControlleDidTapViewOnGithub"]
+- ["So8NSObjectP", "aboutViewControllerDidTapPopCoordinator"]
+- ["So8NSObjectP", "aboutViewControllerDidTapReset"]
+- ["So8NSObjectP", "childCoordinators"]
+- !private ["So8NSObjectP", "dataService"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "navigator"]
+- ["So8NSObjectP", "rootViewController"]
+- ["So8NSObjectP", "start"]
+- ["19Coordinator_Example010NavigationA0P", "AboutViewController"]
+- ["19Coordinator_Example010NavigationA0P", "DataService"]
+- ["19Coordinator_Example010NavigationA0P", "SFSafariViewController"]
+- !private ["19Coordinator_Example010NavigationA0P", "URL"]
+- ["19Coordinator_Example010NavigationA0P", "ViewController"]
+- ["19Coordinator_Example010NavigationA0P", ""]
+- ["19Coordinator_Example010NavigationA0P", "_Default_ViewController"]
+- ["19Coordinator_Example010NavigationA0P", "aboutViewControlleDidTapViewOnGithub"]
+- ["19Coordinator_Example010NavigationA0P", "aboutViewControllerDidTapPopCoordinator"]
+- ["19Coordinator_Example010NavigationA0P", "aboutViewControllerDidTapReset"]
+- ["19Coordinator_Example010NavigationA0P", "childCoordinators"]
+- !private ["19Coordinator_Example010NavigationA0P", "dataService"]
+- ["19Coordinator_Example010NavigationA0P", "navigator"]
+- ["19Coordinator_Example010NavigationA0P", "rootViewController"]
+- ["19Coordinator_Example010NavigationA0P", "start"]
+- !private ["19Coordinator_Example13NavigatorTypeP", "popViewController"]
+- ["19Coordinator_Example012PresentationA0P", "AboutViewController"]
+- ["19Coordinator_Example012PresentationA0P", "DataService"]
+- ["19Coordinator_Example012PresentationA0P", "SFSafariViewController"]
+- !private ["19Coordinator_Example012PresentationA0P", "URL"]
+- ["19Coordinator_Example012PresentationA0P", "ViewController"]
+- ["19Coordinator_Example012PresentationA0P", ""]
+- ["19Coordinator_Example012PresentationA0P", "_Default_ViewController"]
+- ["19Coordinator_Example012PresentationA0P", "aboutViewControlleDidTapViewOnGithub"]
+- ["19Coordinator_Example012PresentationA0P", "aboutViewControllerDidTapPopCoordinator"]
+- ["19Coordinator_Example012PresentationA0P", "aboutViewControllerDidTapReset"]
+- ["19Coordinator_Example012PresentationA0P", "childCoordinators"]
+- !private ["19Coordinator_Example012PresentationA0P", "dataService"]
+- ["19Coordinator_Example012PresentationA0P", "navigator"]
+- ["19Coordinator_Example012PresentationA0P", "rootViewController"]
+- ["19Coordinator_Example012PresentationA0P", "start"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AboutViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DataService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SFSafariViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_Default_ViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "aboutViewControlleDidTapViewOnGithub"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "aboutViewControllerDidTapPopCoordinator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "aboutViewControllerDidTapReset"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "childCoordinators"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AboutViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DataService"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SFSafariViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_Default_ViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "aboutViewControlleDidTapViewOnGithub"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "aboutViewControllerDidTapPopCoordinator"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "aboutViewControllerDidTapReset"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "childCoordinators"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataService"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigator"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "start"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["19Coordinator_Example013_PresentationA0P", "AboutViewController"]
+- ["19Coordinator_Example013_PresentationA0P", "DataService"]
+- ["19Coordinator_Example013_PresentationA0P", "SFSafariViewController"]
+- !private ["19Coordinator_Example013_PresentationA0P", "URL"]
+- ["19Coordinator_Example013_PresentationA0P", "ViewController"]
+- ["19Coordinator_Example013_PresentationA0P", ""]
+- ["19Coordinator_Example013_PresentationA0P", "_Default_ViewController"]
+- ["19Coordinator_Example013_PresentationA0P", "aboutViewControlleDidTapViewOnGithub"]
+- ["19Coordinator_Example013_PresentationA0P", "aboutViewControllerDidTapPopCoordinator"]
+- ["19Coordinator_Example013_PresentationA0P", "aboutViewControllerDidTapReset"]
+- ["19Coordinator_Example013_PresentationA0P", "childCoordinators"]
+- !private ["19Coordinator_Example013_PresentationA0P", "dataService"]
+- ["19Coordinator_Example013_PresentationA0P", "navigator"]
+- ["19Coordinator_Example013_PresentationA0P", "rootViewController"]
+- ["19Coordinator_Example013_PresentationA0P", "start"]
+depends-nominal:
+- "19Coordinator_Example05AboutA0C"
+- "19Coordinator_Example19AboutViewControllerC"
+- "19Coordinator_Example27AboutViewControllerDelegateP"
+- "s7CVarArgP"
+- "19Coordinator_Example0A0P"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "19Coordinator_Example11DataServiceC"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "19Coordinator_Example010NavigationA0P"
+- !private "19Coordinator_Example13NavigatorTypeP"
+- "19Coordinator_Example012PresentationA0P"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Foundation3URLV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "19Coordinator_Example013_PresentationA0P"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SafariServices.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "868bf55191b4557c4d5ee10d88573f2c"

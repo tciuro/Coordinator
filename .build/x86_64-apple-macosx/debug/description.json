@@ -1,0 +1,20 @@
+{
+  "allExecutables" : [
+
+  ],
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.Coordinator-Example-debug.module" : "Coordinator-Example"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

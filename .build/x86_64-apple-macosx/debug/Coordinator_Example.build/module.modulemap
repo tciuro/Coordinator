@@ -1,0 +1,4 @@
+module Coordinator_Example {
+    header "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Coordinator-Example-Swift.h"
+    requires objc
+}

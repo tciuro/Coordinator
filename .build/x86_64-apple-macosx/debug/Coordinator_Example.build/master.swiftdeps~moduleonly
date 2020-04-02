@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+options: "e0f4dc5cd3c5683228d889d00356b90e"
+build_time: [1585853079, 343109000]
+inputs:
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/AppDelegate.swift": !dirty [1585852332, 537005028]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Coordinators/AboutCoordinator.swift": !dirty [1585852332, 537240672]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Coordinators/AppCoordinator.swift": !dirty [1585852332, 537354215]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Coordinators/ExamplesCoordinator.swift": !dirty [1585852332, 537536535]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Coordinators/OnboardingCoordinator.swift": !dirty [1585852332, 537694012]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/DataService.swift": !dirty [1585852332, 537857836]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Extensions/UILabel+Extensions.swift": !dirty [1585852332, 538679953]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Extensions/UIView+Extensions.swift": !dirty [1585852332, 538832701]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Extensions/UIViewController+Extensions.swift": !dirty [1585852332, 538932902]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Main/Coordinator.swift": !dirty [1585849418, 146633640]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Main/Navigator.swift": !dirty [1585849418, 141692744]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/ViewControllers/AboutViewController.swift": !dirty [1585852332, 541146385]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/ViewControllers/AppRootViewController.swift": !dirty [1585852332, 541327701]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/ViewControllers/ExamplesViewController.swift": !dirty [1585852332, 541506499]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/ViewControllers/SummaryViewController.swift": !dirty [1585852332, 541625240]
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/ViewControllers/WelcomeViewController.swift": !dirty [1585852332, 541800214]

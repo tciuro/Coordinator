@@ -1,0 +1,197 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Coordinator"
+- "_PresentationCoordinator"
+- "PresentationCoordinator"
+- "NavigationCoordinator"
+provides-nominal:
+- "19Coordinator_Example0A0P"
+- "19Coordinator_Example013_PresentationA0P"
+- "19Coordinator_Example012PresentationA0P"
+- "19Coordinator_Example010NavigationA0P"
+provides-member:
+- ["19Coordinator_Example0A0P", ""]
+- ["19Coordinator_Example013_PresentationA0P", ""]
+- ["19Coordinator_Example012PresentationA0P", ""]
+- ["19Coordinator_Example010NavigationA0P", ""]
+- ["19Coordinator_Example0A0P", "addChildCoordinator"]
+- ["19Coordinator_Example0A0P", "removeChildCoordinator"]
+- ["19Coordinator_Example012PresentationA0P", "_rootViewController"]
+- ["19Coordinator_Example012PresentationA0P", "presentCoordinator"]
+- ["19Coordinator_Example012PresentationA0P", "dismissCoordinator"]
+- ["19Coordinator_Example010NavigationA0P", "pushCoordinator"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "Coordinator"
+- "NavigationCoordinator"
+- "NavigatorType"
+- "PresentationCoordinator"
+- "UIViewController"
+- "Void"
+- "_PresentationCoordinator"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "filter"]
+- !private ["SK", "append"]
+- !private ["SK", "filter"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["Sl", "append"]
+- !private ["Sl", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- ["19Coordinator_Example0A0P", "Bool"]
+- ["19Coordinator_Example0A0P", "Coordinator"]
+- ["19Coordinator_Example0A0P", "NavigatorType"]
+- ["19Coordinator_Example0A0P", "UIViewController"]
+- ["19Coordinator_Example0A0P", "ViewController"]
+- ["19Coordinator_Example0A0P", "Void"]
+- ["19Coordinator_Example0A0P", ""]
+- ["19Coordinator_Example0A0P", "_PresentationCoordinator"]
+- !private ["19Coordinator_Example0A0P", "_rootViewController"]
+- ["19Coordinator_Example0A0P", "addChildCoordinator"]
+- ["19Coordinator_Example0A0P", "childCoordinators"]
+- ["19Coordinator_Example0A0P", "navigator"]
+- ["19Coordinator_Example0A0P", "removeChildCoordinator"]
+- ["19Coordinator_Example0A0P", "rootViewController"]
+- ["19Coordinator_Example0A0P", "start"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["Se", "append"]
+- !private ["Se", "filter"]
+- !private ["SE", "append"]
+- !private ["SE", "filter"]
+- !private ["SQ", "append"]
+- !private ["SQ", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["SH", "append"]
+- !private ["SH", "filter"]
+- !private ["SM", "append"]
+- !private ["SM", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- ["19Coordinator_Example010NavigationA0P", "Bool"]
+- ["19Coordinator_Example010NavigationA0P", "NavigatorType"]
+- ["19Coordinator_Example010NavigationA0P", "_PresentationCoordinator"]
+- !private ["19Coordinator_Example010NavigationA0P", "addChildCoordinator"]
+- ["19Coordinator_Example010NavigationA0P", "navigator"]
+- ["19Coordinator_Example010NavigationA0P", "pushCoordinator"]
+- !private ["19Coordinator_Example010NavigationA0P", "removeChildCoordinator"]
+- !private ["19Coordinator_Example13NavigatorTypeP", "push"]
+- ["19Coordinator_Example012PresentationA0P", "Bool"]
+- ["19Coordinator_Example012PresentationA0P", "NavigatorType"]
+- ["19Coordinator_Example012PresentationA0P", "UIViewController"]
+- ["19Coordinator_Example012PresentationA0P", "ViewController"]
+- ["19Coordinator_Example012PresentationA0P", "Void"]
+- ["19Coordinator_Example012PresentationA0P", ""]
+- ["19Coordinator_Example012PresentationA0P", "_PresentationCoordinator"]
+- !private ["19Coordinator_Example012PresentationA0P", "addChildCoordinator"]
+- ["19Coordinator_Example012PresentationA0P", "dismissCoordinator"]
+- ["19Coordinator_Example012PresentationA0P", "navigator"]
+- ["19Coordinator_Example012PresentationA0P", "presentCoordinator"]
+- !private ["19Coordinator_Example012PresentationA0P", "removeChildCoordinator"]
+- ["19Coordinator_Example012PresentationA0P", "rootViewController"]
+- !private ["Sk", "append"]
+- !private ["Sk", "filter"]
+- !private ["Sm", "append"]
+- !private ["Sm", "filter"]
+- !private ["ST", "append"]
+- !private ["ST", "filter"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- ["19Coordinator_Example013_PresentationA0P", "Bool"]
+- ["19Coordinator_Example013_PresentationA0P", "NavigatorType"]
+- ["19Coordinator_Example013_PresentationA0P", "UIViewController"]
+- ["19Coordinator_Example013_PresentationA0P", "ViewController"]
+- ["19Coordinator_Example013_PresentationA0P", "Void"]
+- ["19Coordinator_Example013_PresentationA0P", ""]
+- ["19Coordinator_Example013_PresentationA0P", "_PresentationCoordinator"]
+- !private ["19Coordinator_Example013_PresentationA0P", "_rootViewController"]
+- !private ["19Coordinator_Example013_PresentationA0P", "addChildCoordinator"]
+- ["19Coordinator_Example013_PresentationA0P", "navigator"]
+- !private ["19Coordinator_Example013_PresentationA0P", "removeChildCoordinator"]
+- ["19Coordinator_Example013_PresentationA0P", "rootViewController"]
+- !private ["19Coordinator_Example013_PresentationA0P", "start"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "19Coordinator_Example0A0P"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "19Coordinator_Example010NavigationA0P"
+- !private "19Coordinator_Example13NavigatorTypeP"
+- "19Coordinator_Example012PresentationA0P"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- "19Coordinator_Example013_PresentationA0P"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SafariServices.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8dd2b800a1459287af0235869f7ea0fd"

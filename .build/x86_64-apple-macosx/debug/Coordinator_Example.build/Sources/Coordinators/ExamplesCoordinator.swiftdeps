@@ -1,0 +1,342 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ExamplesCoordinator"
+provides-nominal:
+- "19Coordinator_Example08ExamplesA0C"
+provides-member:
+- ["19Coordinator_Example08ExamplesA0C", ""]
+provides-dynamic-lookup:
+- "childCoordinators"
+- "dataService"
+- "examplesViewController"
+- "examplesViewControllerDidTapPresentCoordinator"
+- "examplesViewControllerDidTapPresentViewController"
+- "examplesViewControllerDidTapPushCoordinator"
+- "navigator"
+- "onboardingCoordinatorDidFinish"
+- "rootViewController"
+- "start"
+- "welcomeControllerDidTapButton"
+depends-top-level:
+- !private "+"
+- !private "=="
+- !private "AboutCoordinator"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Coordinator"
+- "DataService"
+- "ExamplesCoordinator"
+- "ExamplesViewController"
+- "ExamplesViewControllerDelegate"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NavigationCoordinator"
+- !private "Navigator"
+- "NavigatorType"
+- "OnboardingCoordinator"
+- "OnboardingCoordinatorDelegate"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UINavigationController"
+- "WelcomeViewController"
+- "WelcomeViewControllerDelegate"
+depends-member:
+- !private ["19Coordinator_Example05AboutA0C", "deinit"]
+- !private ["19Coordinator_Example05AboutA0C", "init"]
+- !private ["19Coordinator_Example27AboutViewControllerDelegateP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["19Coordinator_Example0A0P", "AboutCoordinator"]
+- ["19Coordinator_Example0A0P", "DataService"]
+- !private ["19Coordinator_Example0A0P", "ExamplesViewController"]
+- !private ["19Coordinator_Example0A0P", "Navigator"]
+- !private ["19Coordinator_Example0A0P", "OnboardingCoordinator"]
+- ["19Coordinator_Example0A0P", "UINavigationController"]
+- ["19Coordinator_Example0A0P", "ViewController"]
+- !private ["19Coordinator_Example0A0P", "WelcomeViewController"]
+- ["19Coordinator_Example0A0P", ""]
+- ["19Coordinator_Example0A0P", "_Default_ViewController"]
+- ["19Coordinator_Example0A0P", "childCoordinators"]
+- !private ["19Coordinator_Example0A0P", "dataService"]
+- !private ["19Coordinator_Example0A0P", "delegate"]
+- !private ["19Coordinator_Example0A0P", "dismissCoordinator"]
+- !private ["19Coordinator_Example0A0P", "examplesViewController"]
+- ["19Coordinator_Example0A0P", "examplesViewControllerDidTapPresentCoordinator"]
+- ["19Coordinator_Example0A0P", "examplesViewControllerDidTapPresentViewController"]
+- ["19Coordinator_Example0A0P", "examplesViewControllerDidTapPushCoordinator"]
+- !private ["19Coordinator_Example0A0P", "init"]
+- ["19Coordinator_Example0A0P", "navigator"]
+- ["19Coordinator_Example0A0P", "onboardingCoordinatorDidFinish"]
+- !private ["19Coordinator_Example0A0P", "presentCoordinator"]
+- !private ["19Coordinator_Example0A0P", "pushCoordinator"]
+- ["19Coordinator_Example0A0P", "rootViewController"]
+- ["19Coordinator_Example0A0P", "start"]
+- ["19Coordinator_Example0A0P", "welcomeControllerDidTapButton"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["19Coordinator_Example11DataServiceC", "fetchViewControllerViewedCount"]
+- !private ["19Coordinator_Example11DataServiceC", "set"]
+- ["19Coordinator_Example11DataServiceC", "shared"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SQ", "init"]
+- !private ["19Coordinator_Example08ExamplesA0C", "AboutCoordinator"]
+- ["19Coordinator_Example08ExamplesA0C", "Coordinator"]
+- ["19Coordinator_Example08ExamplesA0C", "DataService"]
+- ["19Coordinator_Example08ExamplesA0C", "ExamplesViewController"]
+- !private ["19Coordinator_Example08ExamplesA0C", "Navigator"]
+- ["19Coordinator_Example08ExamplesA0C", "NavigatorType"]
+- ["19Coordinator_Example08ExamplesA0C", "OnboardingCoordinator"]
+- ["19Coordinator_Example08ExamplesA0C", "UINavigationController"]
+- ["19Coordinator_Example08ExamplesA0C", "ViewController"]
+- ["19Coordinator_Example08ExamplesA0C", "WelcomeViewController"]
+- ["19Coordinator_Example08ExamplesA0C", "_Default_ViewController"]
+- ["19Coordinator_Example08ExamplesA0C", "childCoordinators"]
+- !private ["19Coordinator_Example08ExamplesA0C", "dataService"]
+- ["19Coordinator_Example08ExamplesA0C", "deinit"]
+- !private ["19Coordinator_Example08ExamplesA0C", "dismissCoordinator"]
+- !private ["19Coordinator_Example08ExamplesA0C", "examplesViewController"]
+- ["19Coordinator_Example08ExamplesA0C", "examplesViewControllerDidTapPresentCoordinator"]
+- ["19Coordinator_Example08ExamplesA0C", "examplesViewControllerDidTapPresentViewController"]
+- ["19Coordinator_Example08ExamplesA0C", "examplesViewControllerDidTapPushCoordinator"]
+- ["19Coordinator_Example08ExamplesA0C", "init"]
+- ["19Coordinator_Example08ExamplesA0C", "navigator"]
+- ["19Coordinator_Example08ExamplesA0C", "onboardingCoordinatorDidFinish"]
+- !private ["19Coordinator_Example08ExamplesA0C", "presentCoordinator"]
+- !private ["19Coordinator_Example08ExamplesA0C", "pushCoordinator"]
+- ["19Coordinator_Example08ExamplesA0C", "rootViewController"]
+- ["19Coordinator_Example08ExamplesA0C", "start"]
+- ["19Coordinator_Example08ExamplesA0C", "welcomeControllerDidTapButton"]
+- !private ["19Coordinator_Example22ExamplesViewControllerC", "delegate"]
+- !private ["19Coordinator_Example22ExamplesViewControllerC", "init"]
+- !private ["19Coordinator_Example22ExamplesViewControllerC", "present"]
+- !private ["19Coordinator_Example30ExamplesViewControllerDelegateP", "AboutCoordinator"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "DataService"]
+- !private ["19Coordinator_Example30ExamplesViewControllerDelegateP", "ExamplesViewController"]
+- !private ["19Coordinator_Example30ExamplesViewControllerDelegateP", "Navigator"]
+- !private ["19Coordinator_Example30ExamplesViewControllerDelegateP", "OnboardingCoordinator"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "UINavigationController"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "ViewController"]
+- !private ["19Coordinator_Example30ExamplesViewControllerDelegateP", "WelcomeViewController"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", ""]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "_Default_ViewController"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "childCoordinators"]
+- !private ["19Coordinator_Example30ExamplesViewControllerDelegateP", "dataService"]
+- !private ["19Coordinator_Example30ExamplesViewControllerDelegateP", "dismissCoordinator"]
+- !private ["19Coordinator_Example30ExamplesViewControllerDelegateP", "examplesViewController"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "examplesViewControllerDidTapPresentCoordinator"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "examplesViewControllerDidTapPresentViewController"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "examplesViewControllerDidTapPushCoordinator"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "navigator"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "onboardingCoordinatorDidFinish"]
+- !private ["19Coordinator_Example30ExamplesViewControllerDelegateP", "presentCoordinator"]
+- !private ["19Coordinator_Example30ExamplesViewControllerDelegateP", "pushCoordinator"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "rootViewController"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "start"]
+- ["19Coordinator_Example30ExamplesViewControllerDelegateP", "welcomeControllerDidTapButton"]
+- !private ["SH", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["19Coordinator_Example010NavigationA0P", "AboutCoordinator"]
+- ["19Coordinator_Example010NavigationA0P", "DataService"]
+- !private ["19Coordinator_Example010NavigationA0P", "ExamplesViewController"]
+- !private ["19Coordinator_Example010NavigationA0P", "Navigator"]
+- !private ["19Coordinator_Example010NavigationA0P", "OnboardingCoordinator"]
+- ["19Coordinator_Example010NavigationA0P", "UINavigationController"]
+- ["19Coordinator_Example010NavigationA0P", "ViewController"]
+- !private ["19Coordinator_Example010NavigationA0P", "WelcomeViewController"]
+- ["19Coordinator_Example010NavigationA0P", ""]
+- ["19Coordinator_Example010NavigationA0P", "_Default_ViewController"]
+- ["19Coordinator_Example010NavigationA0P", "childCoordinators"]
+- !private ["19Coordinator_Example010NavigationA0P", "dataService"]
+- !private ["19Coordinator_Example010NavigationA0P", "delegate"]
+- !private ["19Coordinator_Example010NavigationA0P", "dismissCoordinator"]
+- !private ["19Coordinator_Example010NavigationA0P", "examplesViewController"]
+- ["19Coordinator_Example010NavigationA0P", "examplesViewControllerDidTapPresentCoordinator"]
+- ["19Coordinator_Example010NavigationA0P", "examplesViewControllerDidTapPresentViewController"]
+- ["19Coordinator_Example010NavigationA0P", "examplesViewControllerDidTapPushCoordinator"]
+- !private ["19Coordinator_Example010NavigationA0P", "init"]
+- ["19Coordinator_Example010NavigationA0P", "navigator"]
+- ["19Coordinator_Example010NavigationA0P", "onboardingCoordinatorDidFinish"]
+- !private ["19Coordinator_Example010NavigationA0P", "presentCoordinator"]
+- !private ["19Coordinator_Example010NavigationA0P", "pushCoordinator"]
+- ["19Coordinator_Example010NavigationA0P", "rootViewController"]
+- ["19Coordinator_Example010NavigationA0P", "start"]
+- ["19Coordinator_Example010NavigationA0P", "welcomeControllerDidTapButton"]
+- !private ["19Coordinator_Example010OnboardingA0C", "deinit"]
+- !private ["19Coordinator_Example010OnboardingA0C", "delegate"]
+- !private ["19Coordinator_Example010OnboardingA0C", "init"]
+- !private ["19Coordinator_Example010OnboardingA8DelegateP", "AboutCoordinator"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "DataService"]
+- !private ["19Coordinator_Example010OnboardingA8DelegateP", "ExamplesViewController"]
+- !private ["19Coordinator_Example010OnboardingA8DelegateP", "Navigator"]
+- !private ["19Coordinator_Example010OnboardingA8DelegateP", "OnboardingCoordinator"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "UINavigationController"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "ViewController"]
+- !private ["19Coordinator_Example010OnboardingA8DelegateP", "WelcomeViewController"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", ""]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "_Default_ViewController"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "childCoordinators"]
+- !private ["19Coordinator_Example010OnboardingA8DelegateP", "dataService"]
+- !private ["19Coordinator_Example010OnboardingA8DelegateP", "dismissCoordinator"]
+- !private ["19Coordinator_Example010OnboardingA8DelegateP", "examplesViewController"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "examplesViewControllerDidTapPresentCoordinator"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "examplesViewControllerDidTapPresentViewController"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "examplesViewControllerDidTapPushCoordinator"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "navigator"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "onboardingCoordinatorDidFinish"]
+- !private ["19Coordinator_Example010OnboardingA8DelegateP", "presentCoordinator"]
+- !private ["19Coordinator_Example010OnboardingA8DelegateP", "pushCoordinator"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "rootViewController"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "start"]
+- ["19Coordinator_Example010OnboardingA8DelegateP", "welcomeControllerDidTapButton"]
+- !private ["19Coordinator_Example012PresentationA0P", "AboutCoordinator"]
+- ["19Coordinator_Example012PresentationA0P", "DataService"]
+- !private ["19Coordinator_Example012PresentationA0P", "ExamplesViewController"]
+- !private ["19Coordinator_Example012PresentationA0P", "Navigator"]
+- !private ["19Coordinator_Example012PresentationA0P", "OnboardingCoordinator"]
+- ["19Coordinator_Example012PresentationA0P", "UINavigationController"]
+- ["19Coordinator_Example012PresentationA0P", "ViewController"]
+- !private ["19Coordinator_Example012PresentationA0P", "WelcomeViewController"]
+- ["19Coordinator_Example012PresentationA0P", ""]
+- ["19Coordinator_Example012PresentationA0P", "_Default_ViewController"]
+- ["19Coordinator_Example012PresentationA0P", "childCoordinators"]
+- !private ["19Coordinator_Example012PresentationA0P", "dataService"]
+- !private ["19Coordinator_Example012PresentationA0P", "delegate"]
+- !private ["19Coordinator_Example012PresentationA0P", "dismissCoordinator"]
+- !private ["19Coordinator_Example012PresentationA0P", "examplesViewController"]
+- ["19Coordinator_Example012PresentationA0P", "examplesViewControllerDidTapPresentCoordinator"]
+- ["19Coordinator_Example012PresentationA0P", "examplesViewControllerDidTapPresentViewController"]
+- ["19Coordinator_Example012PresentationA0P", "examplesViewControllerDidTapPushCoordinator"]
+- !private ["19Coordinator_Example012PresentationA0P", "init"]
+- ["19Coordinator_Example012PresentationA0P", "navigator"]
+- ["19Coordinator_Example012PresentationA0P", "onboardingCoordinatorDidFinish"]
+- !private ["19Coordinator_Example012PresentationA0P", "presentCoordinator"]
+- !private ["19Coordinator_Example012PresentationA0P", "pushCoordinator"]
+- ["19Coordinator_Example012PresentationA0P", "rootViewController"]
+- ["19Coordinator_Example012PresentationA0P", "start"]
+- ["19Coordinator_Example012PresentationA0P", "welcomeControllerDidTapButton"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["19Coordinator_Example29SummaryViewControllerDelegateP", "delegate"]
+- !private ["19Coordinator_Example29SummaryViewControllerDelegateP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["19Coordinator_Example21WelcomeViewControllerC", "dismiss"]
+- ["19Coordinator_Example21WelcomeViewControllerC", "init"]
+- !private ["19Coordinator_Example21WelcomeViewControllerC", "showAlert"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "AboutCoordinator"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "DataService"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "ExamplesViewController"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "Navigator"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "OnboardingCoordinator"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "UINavigationController"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "ViewController"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "WelcomeViewController"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", ""]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "_Default_ViewController"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "childCoordinators"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "dataService"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "delegate"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "dismissCoordinator"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "examplesViewController"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "examplesViewControllerDidTapPresentCoordinator"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "examplesViewControllerDidTapPresentViewController"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "examplesViewControllerDidTapPushCoordinator"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "init"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "navigator"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "onboardingCoordinatorDidFinish"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "presentCoordinator"]
+- !private ["19Coordinator_Example29WelcomeViewControllerDelegateP", "pushCoordinator"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "rootViewController"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "start"]
+- ["19Coordinator_Example29WelcomeViewControllerDelegateP", "welcomeControllerDidTapButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["19Coordinator_Example013_PresentationA0P", "AboutCoordinator"]
+- ["19Coordinator_Example013_PresentationA0P", "DataService"]
+- !private ["19Coordinator_Example013_PresentationA0P", "ExamplesViewController"]
+- !private ["19Coordinator_Example013_PresentationA0P", "Navigator"]
+- !private ["19Coordinator_Example013_PresentationA0P", "OnboardingCoordinator"]
+- ["19Coordinator_Example013_PresentationA0P", "UINavigationController"]
+- ["19Coordinator_Example013_PresentationA0P", "ViewController"]
+- !private ["19Coordinator_Example013_PresentationA0P", "WelcomeViewController"]
+- ["19Coordinator_Example013_PresentationA0P", ""]
+- ["19Coordinator_Example013_PresentationA0P", "_Default_ViewController"]
+- ["19Coordinator_Example013_PresentationA0P", "childCoordinators"]
+- !private ["19Coordinator_Example013_PresentationA0P", "dataService"]
+- !private ["19Coordinator_Example013_PresentationA0P", "delegate"]
+- !private ["19Coordinator_Example013_PresentationA0P", "dismissCoordinator"]
+- !private ["19Coordinator_Example013_PresentationA0P", "examplesViewController"]
+- ["19Coordinator_Example013_PresentationA0P", "examplesViewControllerDidTapPresentCoordinator"]
+- ["19Coordinator_Example013_PresentationA0P", "examplesViewControllerDidTapPresentViewController"]
+- ["19Coordinator_Example013_PresentationA0P", "examplesViewControllerDidTapPushCoordinator"]
+- !private ["19Coordinator_Example013_PresentationA0P", "init"]
+- ["19Coordinator_Example013_PresentationA0P", "navigator"]
+- ["19Coordinator_Example013_PresentationA0P", "onboardingCoordinatorDidFinish"]
+- !private ["19Coordinator_Example013_PresentationA0P", "presentCoordinator"]
+- !private ["19Coordinator_Example013_PresentationA0P", "pushCoordinator"]
+- ["19Coordinator_Example013_PresentationA0P", "rootViewController"]
+- ["19Coordinator_Example013_PresentationA0P", "start"]
+- ["19Coordinator_Example013_PresentationA0P", "welcomeControllerDidTapButton"]
+depends-nominal:
+- !private "19Coordinator_Example05AboutA0C"
+- !private "19Coordinator_Example27AboutViewControllerDelegateP"
+- !private "s7CVarArgP"
+- "19Coordinator_Example0A0P"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "19Coordinator_Example11DataServiceC"
+- !private "s26DefaultStringInterpolationV"
+- !private "SQ"
+- "19Coordinator_Example08ExamplesA0C"
+- !private "19Coordinator_Example22ExamplesViewControllerC"
+- "19Coordinator_Example30ExamplesViewControllerDelegateP"
+- !private "SH"
+- !private "So8NSObjectP"
+- "19Coordinator_Example010NavigationA0P"
+- !private "19Coordinator_Example010OnboardingA0C"
+- "19Coordinator_Example010OnboardingA8DelegateP"
+- "19Coordinator_Example012PresentationA0P"
+- !private "s27StringInterpolationProtocolP"
+- !private "19Coordinator_Example29SummaryViewControllerDelegateP"
+- !private "s16TextOutputStreamP"
+- "19Coordinator_Example21WelcomeViewControllerC"
+- "19Coordinator_Example29WelcomeViewControllerDelegateP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "19Coordinator_Example013_PresentationA0P"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SafariServices.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9aeb61d733d29fd4149a320363f4bab2"

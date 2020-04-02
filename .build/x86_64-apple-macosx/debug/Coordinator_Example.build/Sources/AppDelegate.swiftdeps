@@ -1,0 +1,63 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "19Coordinator_Example11AppDelegateC"
+provides-member:
+- ["19Coordinator_Example11AppDelegateC", ""]
+provides-dynamic-lookup:
+- "appCoordinator"
+- "application"
+- "window"
+depends-top-level:
+- "AppCoordinator"
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIResponder"
+- !private "UIScreen"
+- "UIWindow"
+depends-member:
+- !private ["19Coordinator_Example03AppA0C", "deinit"]
+- !private ["19Coordinator_Example03AppA0C", "start"]
+- ["19Coordinator_Example11AppDelegateC", "AppCoordinator"]
+- ["19Coordinator_Example11AppDelegateC", "Bool"]
+- ["19Coordinator_Example11AppDelegateC", "UIApplication"]
+- !private ["19Coordinator_Example11AppDelegateC", "UIScreen"]
+- ["19Coordinator_Example11AppDelegateC", "UIWindow"]
+- ["19Coordinator_Example11AppDelegateC", "appCoordinator"]
+- ["19Coordinator_Example11AppDelegateC", "deinit"]
+- ["19Coordinator_Example11AppDelegateC", "init"]
+- !private ["19Coordinator_Example11AppDelegateC", "window"]
+- !private ["19Coordinator_Example0A0P", "start"]
+- !private ["19Coordinator_Example010OnboardingA8DelegateP", "start"]
+- !private ["19Coordinator_Example012PresentationA0P", "start"]
+- !private ["19Coordinator_Example013_PresentationA0P", "start"]
+depends-nominal:
+- !private "19Coordinator_Example03AppA0C"
+- "19Coordinator_Example11AppDelegateC"
+- !private "19Coordinator_Example0A0P"
+- !private "19Coordinator_Example010OnboardingA8DelegateP"
+- !private "19Coordinator_Example012PresentationA0P"
+- !private "19Coordinator_Example013_PresentationA0P"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "23175931d73238199ff99653fb445753"

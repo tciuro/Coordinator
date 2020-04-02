@@ -1,0 +1,101 @@
+{
+  "": {
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/master.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/AppDelegate.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/AppDelegate.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/AppDelegate.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/AppDelegate.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Coordinators/AboutCoordinator.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/AboutCoordinator.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/AboutCoordinator.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/AboutCoordinator~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/AboutCoordinator.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Coordinators/AppCoordinator.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/AppCoordinator.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/AppCoordinator.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/AppCoordinator~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/AppCoordinator.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Coordinators/ExamplesCoordinator.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/ExamplesCoordinator.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/ExamplesCoordinator.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/ExamplesCoordinator~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/ExamplesCoordinator.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Coordinators/OnboardingCoordinator.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/OnboardingCoordinator.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/OnboardingCoordinator.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/OnboardingCoordinator~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Coordinators/OnboardingCoordinator.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/DataService.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/DataService.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/DataService.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/DataService~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/DataService.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Extensions/UILabel+Extensions.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UILabel+Extensions.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UILabel+Extensions.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UILabel+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UILabel+Extensions.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Extensions/UIView+Extensions.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UIView+Extensions.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UIView+Extensions.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UIView+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UIView+Extensions.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Extensions/UIViewController+Extensions.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UIViewController+Extensions.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UIViewController+Extensions.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UIViewController+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Extensions/UIViewController+Extensions.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Main/Coordinator.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Main/Coordinator.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Main/Coordinator.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Main/Coordinator~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Main/Coordinator.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/Main/Navigator.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Main/Navigator.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Main/Navigator.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Main/Navigator~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/Main/Navigator.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/ViewControllers/AboutViewController.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/AboutViewController.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/AboutViewController.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/AboutViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/AboutViewController.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/ViewControllers/AppRootViewController.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/AppRootViewController.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/AppRootViewController.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/AppRootViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/AppRootViewController.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/ViewControllers/ExamplesViewController.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/ExamplesViewController.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/ExamplesViewController.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/ExamplesViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/ExamplesViewController.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/ViewControllers/SummaryViewController.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/SummaryViewController.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/SummaryViewController.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/SummaryViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/SummaryViewController.swiftdeps"
+  },
+  "/Users/tito/Desktop/Backup/Projects/Coordinator/Sources/ViewControllers/WelcomeViewController.swift": {
+    "dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/WelcomeViewController.d",
+    "object": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/WelcomeViewController.swift.o",
+    "swiftmodule": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/WelcomeViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/tito/Desktop/Backup/Projects/Coordinator/.build/x86_64-apple-macosx/debug/Coordinator_Example.build/Sources/ViewControllers/WelcomeViewController.swiftdeps"
+  }
+}
