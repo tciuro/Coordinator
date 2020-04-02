@@ -1,0 +1,31 @@
+name: CI
+
+on:
+    push:
+        branches: [ master ]
+    pull_request:
+        branches: [ master ]
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Display current working directory
+        run: echo $cwd
+        env:
+          cwd: ${{ github.workspace }}
+
+      - name: Setup git credentials
+        uses: fusion-engineering/setup-git-credentials@v2
+        with:
+          credentials: https://tciuro:${{ secrets.GIT_CREDENTIAL }}@github.com/
+
+      - name: Checkout Coordinator
+        uses: actions/checkout@v2
+        with:
+          path: .
+
+      - name: Build Coordinator
+        run: swift build -v
+
+      - name: Run Coordinator tests
+        run: swift test -v
